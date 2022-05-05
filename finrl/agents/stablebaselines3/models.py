@@ -5,7 +5,7 @@ import time
 import numpy as np
 import pandas as pd
 import sys
-sys.path.insert(0, '/home/khushi/Desktop/FinRL/finrl/agents/stablebaselines3/stable_base_lines3/stable_baselines3/ppo')
+sys.path.insert(0, '/Khushik22/FinRL/finrl/agents/stablebaselines3/stable_base_lines3/stable_baselines3/ppo')
 from ppo import PPO
 from stable_baselines3 import A2C, DDPG, SAC, TD3
 from stable_baselines3.common.callbacks import BaseCallback
