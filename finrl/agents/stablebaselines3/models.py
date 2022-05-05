@@ -4,7 +4,10 @@ import time
 
 import numpy as np
 import pandas as pd
-from stable_baselines3 import A2C, DDPG, PPO, SAC, TD3
+import sys
+sys.path.insert(0, '/home/khushi/Desktop/FinRL/finrl/agents/stablebaselines3/stable_base_lines3/stable_baselines3/ppo')
+from ppo import PPO
+from stable_baselines3 import A2C, DDPG, SAC, TD3
 from stable_baselines3.common.callbacks import BaseCallback
 from stable_baselines3.common.noise import (
     NormalActionNoise,
